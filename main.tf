@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "app_server" {
-    ami = "ami-03b8adbf322415fd0"
+    ami = "add_your_id"
     instance_type = var.ec2_instance_type
 
     tags = {
